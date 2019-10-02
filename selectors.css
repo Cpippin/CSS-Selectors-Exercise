@@ -1,0 +1,55 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    list-style: none;
+}
+
+.disabled {
+    color: grey;
+}
+
+a.disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent > div > div:nth-child(1) {
+    color: red;
+}
+
+.parent > div > div:nth-of-type(2) {
+    color: blue;
+}
+
+.parent > div > h4:nth-of-type(1) {
+    background-color: red;
+}
+
+.parent > div > h4:nth-of-type(2) {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+footer {
+    line-height: 25px;
+}
